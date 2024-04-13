@@ -1,0 +1,145 @@
+<div>
+    <div class="container-lpage">
+        <div class="container main">
+            <div class="left p-2">
+                <h1 class="main-heading">A comprehensive platform for reliable</h1>
+                <h2 class="text-white ml12"><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">j</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">o</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">b</span> <span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">o</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">p</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">p</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">o</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">r</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">t</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">u</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">n</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">i</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">t</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">i</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">e</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">s</span> <span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">a</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">n</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">d</span> <span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">i</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">n</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">t</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">e</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">r</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">n</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">s</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">h</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">i</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">p</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">s</span><span class="letter"
+                        style="opacity: 1; transform: translateX(0px);">.</span></h2>
+                <h5 class="text-white">Get Discovered. Get Hired.</h5>
+                <div class="actions">
+                    <a href="/jobs" class="btn btn-lg lbtn "> I'm A Job Seeker </a>
+                    <button data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-lg lbtn mx-2">
+                        I'm A Recruiter
+                    </button>
+                </div>
+            </div>
+            <div class="right">
+                <img style="height: 400px; width: 500px;"
+                    src="https://w7.pngwing.com/pngs/591/153/png-transparent-human-resource-management-business-recruitment-consultant-recruitment-process-text-human-resource-management-business-thumbnail.png"
+                    alt="banner">
+                <!-- <img src="https://png.pngtree.com/thumb_back/fh260/back_pic/03/76/37/2257bea537b28e6.jpg" alt="images"> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for registeration -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title bold" id="staticBackdropLabel">
+                        Experience easily!
+                    </h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="/register" method="post" class="p-2">
+                        <div class="mb-3">
+                            <div class="input-group">
+                                <span class="input-group-text">Name</span>
+                                <input required="" name="name" type="text" aria-label="name" class="form-control"
+                                    placeholder="enter your name">
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <div class="input-group">
+                                <span class="input-group-text">Email</span>
+                                <input required="" name="email" type="email" aria-label="email" class="form-control"
+                                    placeholder="enter your email">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="input-group">
+                                <span class="input-group-text">Password</span>
+                                <input required="" name="password" type="password" aria-label="password"
+                                    class="form-control" placeholder="enter your password">
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-md mt-2 lbtn" id="registrationbtn">Register</button>
+                    </form>
+                </div>
+                <div class="modal-footer d-flex align-items-centre justify-content-between">
+                    <div class="left d-flex flex-row align-items-centre justify-content-centre">
+                        <!-- Button trigger login modal -->
+                        <span>Already registered?</span>
+                        <a href="/login">
+                        <button type="button" class="btn btn-sm px-3 btn-outline-success" data-bs-toggle="modal"
+                            data-bs-target="#loginModal">
+                            login
+                        </button>
+                    </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for registeration -->
+
+   
+
+
+    <script>
+        var textWrapper = document.querySelector(".ml12");
+        textWrapper.innerHTML = textWrapper.textContent.replace(
+            /\S/g,
+            "<span class='letter'>$&</span>"
+        );
+
+        anime
+            .timeline({ loop: true })
+            .add({
+                targets: ".ml12 .letter",
+                translateX: [40, 0],
+                translateZ: 0,
+                opacity: [0, 1],
+                easing: "easeOutExpo",
+                duration: 1200,
+                delay: (el, i) => 500 + 30 * i,
+            })
+            .add({
+                targets: ".ml12 .letter",
+                translateX: [0, -30],
+                opacity: [1, 0],
+                easing: "easeInExpo",
+                duration: 1100,
+                delay: (el, i) => 100 + 30 * i,
+            });
+
+
+    </script>
+</div>
+<div id="5D9CE18F-82BB-0B22-1C4C-BF2D10DD8AC4"></div>
